@@ -28,9 +28,7 @@ SECRET_KEY = 'django-insecure-7jq_5!myx)tz&n9_(uv_#vv1yxlm)xn$ynxzt)u^i503zyd(8p
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['https://knowstreet.herokuapp.com/' , 
-'localhost', 
-'127.0.0.1']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
