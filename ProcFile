@@ -1,1 +1,1 @@
-web: gunicorn ipagram.wsgi
+web: gunicorn ipagram.wsgi --log-file -
